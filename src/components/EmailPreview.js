@@ -19,8 +19,8 @@ const EmailPreview = ({ template, customizations, primaryColor }) => {
     watermarkText,
     watermarkPosition,
     watermarkStyle,
-    headerStyle,
-    layout
+    headerStyle
+    // layout - available but not currently used in preview
   } = { ...template, ...customizations };
 
   const logoUrl = customizations.logoUrl || 'https://via.placeholder.com/200x60/3b82f6/ffffff?text=LOGO';
